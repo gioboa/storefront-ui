@@ -9,6 +9,7 @@ description: Product filters are a valuable tool for online shoppers to quickly 
 {{ $frontmatter.description }}
 
 ## Colors
+
 Color filters are a type of product filter that allow online shoppers to narrow down their search results based on the color or colors of the products they are interested in.
 
 <Showcase showcase-name="Filters/Color" style="min-height:500px">
@@ -22,6 +23,7 @@ Color filters are a type of product filter that allow online shoppers to narrow 
 </Showcase>
 
 ## Sizes
+
 Sizes in category pages are a feature that allows online shoppers to filter their search results based on specific sizes of products they are interested in.
 
 <Showcase showcase-name="Filters/Sizes">
@@ -34,7 +36,6 @@ Sizes in category pages are a feature that allows online shoppers to filter thei
 <!-- end react -->
 </Showcase>
 
-
 ## Sort By
 
 Sorting in category pages is a feature that allows online shoppers to arrange and view products on an e-commerce website based on a specific order or criteria.
@@ -46,6 +47,36 @@ Sorting in category pages is a feature that allows online shoppers to arrange an
 <!-- end vue -->
 <!-- react -->
 <<<../../preview/next/pages/showcases/Filters/SortBy.tsx#source
+<!-- end react -->
+
+</Showcase>
+
+## Category list
+
+Category list allows users to browse and select categories of content or products. Each category can be expanded by tapping. Selected categories will be marked with green highlight and an icon.
+
+<Showcase showcase-name="Filters/CategoryList" style="min-height:400px">
+
+<!-- vue -->
+<<<../../preview/nuxt/pages/showcases/Filters/CategoryList.vue
+<!-- end vue -->
+<!-- react -->
+<<<../../preview/next/pages/showcases/Filters/CategoryList.tsx#source
+<!-- end react -->
+
+</Showcase>
+
+## Ratings
+
+Ratings allows users to filter out specific ratings of products in category. Only one at the time can be selected.
+
+<Showcase showcase-name="Filters/Ratings" style="min-height:400px">
+
+<!-- vue -->
+<<<../../preview/nuxt/pages/showcases/Filters/Ratings.vue
+<!-- end vue -->
+<!-- react -->
+<<<../../preview/next/pages/showcases/Filters/Ratings.tsx#source
 <!-- end react -->
 
 </Showcase>
